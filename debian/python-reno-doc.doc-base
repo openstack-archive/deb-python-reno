@@ -1,0 +1,9 @@
+Document: python-reno-doc
+Title: reno Documentation
+Author: N/A
+Abstract: Sphinx documentation for reno
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-reno-doc/html/index.html
+Files: /usr/share/doc/python-reno-doc/html/*
