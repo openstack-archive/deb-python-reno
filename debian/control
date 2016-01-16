@@ -2,14 +2,15 @@ Source: python-reno
 Section: python
 Priority: optional
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
-Uploaders: Ivan Udovichenko <iudovichenko@mirantis.com>
+Uploaders: Ivan Udovichenko <iudovichenko@mirantis.com>,
+           Thomas Goirand <zigo@debian.org>,
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-setuptools,
                python-all (>= 2.7),
-               python3-setuptools,
-               python3-all (>= 3.3),
+               python-setuptools,
                python-sphinx,
+               python3-all (>= 3.3),
+               python3-setuptools,
 Build-Depends-Indep: python-babel,
                      python-coverage (>= 3.6),
                      python-hacking (>= 0.10.0),
@@ -41,9 +42,9 @@ Package: python-reno
 Architecture: all
 Depends: python-pbr (>= 1.4),
          python-yaml (>= 3.1.0),
+         ${misc:Depends},
          ${python:Depends},
-         ${misc:Depends}
-Suggests: python-reno-doc
+Suggests: python-reno-doc,
 Description: RElease NOtes manager - Python 2.x
  Reno is a release notes manager for storing release notes in a git
  repository and then building documentation from them.
@@ -54,9 +55,9 @@ Package: python3-reno
 Architecture: all
 Depends: python3-pbr (>= 1.4),
          python3-yaml (>= 3.1.0),
+         ${misc:Depends},
          ${python3:Depends},
-         ${misc:Depends}
-Suggests: python-reno-doc
+Suggests: python-reno-doc,
 Description: RElease NOtes manager - Python 3.x
  Reno is a release notes manager for storing release notes in a git
  repository and then building documentation from them.
@@ -66,10 +67,10 @@ Description: RElease NOtes manager - Python 3.x
 Package: python-reno-doc
 Section: doc
 Architecture: all
-Depends: ${misc:Depends}, ${sphinxdoc:Depends}
+Depends: ${misc:Depends},
+         ${sphinxdoc:Depends},
 Description: RElease NOtes manager - doc
  Reno is a release notes manager for storing release notes in a git
  repository and then building documentation from them.
  .
  This package contains the documentation.
-
