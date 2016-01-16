@@ -2,12 +2,13 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: reno
 Source: http://www.openstack.org/
 
-Files: debian/*
-Copyright: 2015, Ivan Udovichenko <iudovichenko@mirantis.com>
+Files: *
+Copyright: (c) 2015-2016, OpenStack Foundation <openstack-dev@lists.openstack.org>
 License: Apache-2
 
-Files: *
-Copyright: (c) 2013, OpenStack
+Files: debian/*
+Copyright: (c) 2015, Ivan Udovichenko <iudovichenko@mirantis.com>
+           (c) 2016, Thomas Goirand <zigo@debian.org>
 License: Apache-2
 
 License: Apache-2
