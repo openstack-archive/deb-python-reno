@@ -1,5 +1,5 @@
 python-reno (1.3.0-1) unstable; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release. (Closes: #811150)
 
  -- Thomas Goirand <zigo@debian.org>  Sun, 17 Jan 2016 06:17:15 +0000
