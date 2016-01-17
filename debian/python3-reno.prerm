@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+	update-alternatives --remove reno /usr/bin/python3-reno
+fi
+
+#DEBHELPER#
+
+exit 0

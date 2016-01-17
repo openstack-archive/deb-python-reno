@@ -21,6 +21,8 @@ override_dh_install:
 			--root $(CURDIR)/debian/python3-reno; \
 	done
 	rm -rf $(CURDIR)/debian/python*-reno/usr/lib/python*/dist-packages/*.pth
+	mv $(CURDIR)/debian/python-reno/usr/bin/reno $(CURDIR)/debian/python-reno/usr/bin/python2-reno
+	mv $(CURDIR)/debian/python3-reno/usr/bin/reno $(CURDIR)/debian/python3-reno/usr/bin/python3-reno
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
