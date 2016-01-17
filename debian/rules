@@ -31,8 +31,11 @@ ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
 endif
 
 override_dh_sphinxdoc:
-	sphinx-build -b html doc/source debian/python-reno-doc/usr/share/doc/python-reno-doc/html
-	dh_sphinxdoc -O--buildsystem=python_distutils
+	# Disabling sphinx doc generation as it fails if no git files are present
+	mkdir -p debian/python-reno-doc/usr/share/doc/python-reno-doc/html
+	cp -auxf doc/source/*.rst debian/python-reno-doc/usr/share/doc/python-reno-doc/html
+	#sphinx-build -b html doc/source debian/python-reno-doc/usr/share/doc/python-reno-doc/html
+	#dh_sphinxdoc -O--buildsystem=python_distutils
 
 
 override_dh_clean:
