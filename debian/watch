@@ -1,3 +1,4 @@
 version=3
-http://pypi.python.org/packages/source/r/reno reno-(.*).tar.gz
+opts="uversionmangle=s/\.(b|rc)/~$1/" \
+https://github.com/openstack/reno/tags .*/(\d[\d\.]+)\.tar\.gz
 
