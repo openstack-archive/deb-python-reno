@@ -3,7 +3,8 @@ Upstream-Name: reno
 Source: http://www.openstack.org/
 
 Files: *
-Copyright: (c) 2015-2016, OpenStack Foundation <openstack-dev@lists.openstack.org>
+Copyright: (c) 2010-2016, OpenStack Foundation <openstack-dev@lists.openstack.org>
+           (c) 2013, Hewlett-Packard Development Company, L.P.
 License: Apache-2
 
 Files: debian/*
