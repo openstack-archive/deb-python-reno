@@ -1,8 +1,13 @@
-python-reno (1.3.0-2) UNRELEASED; urgency=medium
+python-reno (1.3.0-2) unstable; urgency=medium
 
+  [ Thomas Goirand ]
+  * Use patch to use less entropy in unit tests.
+  * Reactivated unit tests.
+
+  [ Ondřej Nový ]
   * Fixed VCS URLs (https).
 
- -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:48:25 +0100
+ -- Thomas Goirand <zigo@debian.org>  Mon, 29 Feb 2016 17:34:49 +0000
 
 python-reno (1.3.0-1) unstable; urgency=medium
 

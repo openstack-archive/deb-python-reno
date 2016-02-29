@@ -1,0 +1,59 @@
+From a9362189cab9bab0559f8937f0ece6eae7b4af41 Mon Sep 17 00:00:00 2001
+From: Doug Hellmann <doug@doughellmann.com>
+Date: Sun, 28 Feb 2016 10:39:21 -0500
+Subject: [PATCH] use less entropy in unit tests
+
+Fix the logic for dealing with entropy in the unit tests so we consume
+less.
+
+Change-Id: I1faebfd5de0b9ae150bc2298df5d797fbbf83c07
+Signed-off-by: Doug Hellmann <doug@doughellmann.com>
+---
+ reno/tests/test_scanner.py | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/reno/tests/test_scanner.py b/reno/tests/test_scanner.py
+index 7e5e3ef..4e6d0bb 100644
+--- a/reno/tests/test_scanner.py
++++ b/reno/tests/test_scanner.py
+@@ -65,7 +65,7 @@ class GPGKeyFixture(fixtures.Fixture):
+         gnupg_version_re = re.compile('^gpg\s.*\s([\d+])\.([\d+])\.([\d+])')
+         gnupg_version = utils.check_output(['gpg', '--version'],
+                                            cwd=tempdir.path)
+-        for line in gnupg_version[0].split('\n'):
++        for line in gnupg_version.split('\n'):
+             gnupg_version = gnupg_version_re.match(line)
+             if gnupg_version:
+                 gnupg_version = (int(gnupg_version.group(1)),
+@@ -98,17 +98,17 @@ class GPGKeyFixture(fixtures.Fixture):
+         # Note that --quick-random (--debug-quick-random in GnuPG 2.x)
+         # does not have a corresponding preferences file setting and
+         # must be passed explicitly on the command line instead
+-        # if gnupg_version[0] == 1:
+-        #     gnupg_random = '--quick-random'
+-        # elif gnupg_version[0] >= 2:
+-        #     gnupg_random = '--debug-quick-random'
+-        # else:
+-        #     gnupg_random = ''
+-        subprocess.check_call(
+-            ['gpg', '--gen-key', '--batch',
+-             # gnupg_random,
+-             config_file],
+-            cwd=tempdir.path)
++        if gnupg_version[0] == 1:
++            gnupg_random = '--quick-random'
++        elif gnupg_version[0] >= 2:
++            gnupg_random = '--debug-quick-random'
++        else:
++            gnupg_random = ''
++        cmd = ['gpg', '--gen-key', '--batch']
++        if gnupg_random:
++            cmd.append(gnupg_random)
++        cmd.append(config_file)
++        subprocess.check_call(cmd, cwd=tempdir.path)
+ 
+ 
+ class Base(base.TestCase):
+-- 
+1.9.1
+
