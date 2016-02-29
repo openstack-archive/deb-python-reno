@@ -1,16 +1,12 @@
-From a9362189cab9bab0559f8937f0ece6eae7b4af41 Mon Sep 17 00:00:00 2001
-From: Doug Hellmann <doug@doughellmann.com>
+Description: use less entropy in unit tests
+ Fix the logic for dealing with entropy in the unit tests so we consume
+ less.
+Author: Doug Hellmann <doug@doughellmann.com>
 Date: Sun, 28 Feb 2016 10:39:21 -0500
-Subject: [PATCH] use less entropy in unit tests
-
-Fix the logic for dealing with entropy in the unit tests so we consume
-less.
-
 Change-Id: I1faebfd5de0b9ae150bc2298df5d797fbbf83c07
 Signed-off-by: Doug Hellmann <doug@doughellmann.com>
----
- reno/tests/test_scanner.py | 24 ++++++++++++------------
- 1 file changed, 12 insertions(+), 12 deletions(-)
+Origin: upstream, https://review.openstack.org/#/c/285812
+Last-Update: 2016-03-01
 
 diff --git a/reno/tests/test_scanner.py b/reno/tests/test_scanner.py
 index 7e5e3ef..4e6d0bb 100644
