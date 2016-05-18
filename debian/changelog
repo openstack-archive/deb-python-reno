@@ -1,8 +1,8 @@
-python-reno (1.3.0-3) UNRELEASED; urgency=medium
+python-reno (1.3.0-3) unstable; urgency=medium
 
-  * Added git as runtime and build depends.
+  * Added git as runtime and build depends (Closes: #824593).
 
- -- Thomas Goirand <zigo@debian.org>  Thu, 10 Mar 2016 15:35:14 +0100
+ -- Thomas Goirand <zigo@debian.org>  Wed, 18 May 2016 10:23:32 +0200
 
 python-reno (1.3.0-2) unstable; urgency=medium
 
