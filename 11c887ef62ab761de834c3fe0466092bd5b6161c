@@ -1,0 +1,11 @@
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Code-Review+1: Davanum Srinivas (dims) <davanum@gmail.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 03 Mar 2016 20:58:34 +0000
+Reviewed-on: https://review.openstack.org/278761
+Project: openstack/deb-python-reno
+Branch: refs/heads/master

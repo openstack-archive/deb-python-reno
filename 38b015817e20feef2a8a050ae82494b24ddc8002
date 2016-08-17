@@ -1,0 +1,9 @@
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Workflow+1: Thierry Carrez <thierry@openstack.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 02 Jun 2016 10:52:21 +0000
+Reviewed-on: https://review.openstack.org/322635
+Project: openstack/deb-python-reno
+Branch: refs/heads/master

@@ -1,0 +1,9 @@
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Code-Review+2: Davanum Srinivas (dims) <davanum@gmail.com>
+Workflow+1: Davanum Srinivas (dims) <davanum@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 23 Jun 2016 13:03:09 +0000
+Reviewed-on: https://review.openstack.org/332878
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
