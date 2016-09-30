@@ -1,0 +1,10 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Workflow+1: Thierry Carrez <thierry@openstack.org>
+Code-Review+1: yangjidong <yangjd@inspur.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 30 Sep 2016 08:12:33 +0000
+Reviewed-on: https://review.openstack.org/379648
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
