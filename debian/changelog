@@ -1,10 +1,14 @@
-python-reno (1.3.0-4) UNRELEASED; urgency=medium
+python-reno (1.3.0-5) unstable; urgency=medium
 
+  [ Ondřej Nový ]
   * d/rules: Changed UPSTREAM_GIT protocol to https
   * d/s/options: extend-diff-ignore of .gitreview
   * d/control: Using OpenStack's Gerrit as VCS URLs.
 
- -- Ondřej Nový <novy@ondrej.org>  Thu, 19 May 2016 21:31:19 +0200
+  [ Thomas Goirand ]
+  * Added gnupg as build-depends (Closes: #834685).
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 04 Oct 2016 14:30:48 +0200
 
 python-reno (1.3.0-3) unstable; urgency=medium
 
