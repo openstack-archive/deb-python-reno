@@ -1,0 +1,9 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: Davanum Srinivas (dims) <davanum@gmail.com>
+Workflow+1: Davanum Srinivas (dims) <davanum@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 14 Dec 2016 15:06:03 +0000
+Reviewed-on: https://review.openstack.org/409370
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
