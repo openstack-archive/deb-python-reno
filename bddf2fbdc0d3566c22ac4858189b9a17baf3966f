@@ -1,0 +1,8 @@
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 14 Dec 2016 16:20:36 +0000
+Reviewed-on: https://review.openstack.org/410832
+Project: openstack/deb-python-reno
+Branch: refs/heads/stable/newton
