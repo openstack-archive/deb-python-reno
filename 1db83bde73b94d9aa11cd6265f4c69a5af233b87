@@ -1,0 +1,11 @@
+Code-Review+1: Dean Troyer <dtroyer@gmail.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Armando Migliaccio <armamig@gmail.com>
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Workflow+1: Thierry Carrez <thierry@openstack.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Mon, 06 Feb 2017 15:06:49 +0000
+Reviewed-on: https://review.openstack.org/427842
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
