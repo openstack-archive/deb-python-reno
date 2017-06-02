@@ -1,0 +1,14 @@
+Code-Review+1: Alex Schultz <aschultz@redhat.com>
+Code-Review+1: Pradeep Kilambi <pkilambi@redhat.com>
+Code-Review+1: Flávio Ramalho <flaviosr@lsd.ufcg.edu.br>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+1: Lucas Alvares Gomes <lucasagomes@gmail.com>
+Code-Review+1: Jesse Pretorius (odyssey4me) <jesse.pretorius@rackspace.co.uk>
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Workflow+1: Thierry Carrez <thierry@openstack.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 02 Jun 2017 16:02:11 +0000
+Reviewed-on: https://review.openstack.org/469966
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
