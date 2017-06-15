@@ -1,0 +1,11 @@
+Code-Review+2: Davanum Srinivas (dims) <davanum@gmail.com>
+Code-Review+1: Sean McGinnis <sean.mcginnis@gmail.com>
+Code-Review+1: Eric Fried <efried@us.ibm.com>
+Code-Review+2: Thierry Carrez <thierry@openstack.org>
+Workflow+1: Thierry Carrez <thierry@openstack.org>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 15 Jun 2017 07:12:25 +0000
+Reviewed-on: https://review.openstack.org/471110
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
