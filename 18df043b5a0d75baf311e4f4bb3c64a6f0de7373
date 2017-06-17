@@ -1,0 +1,10 @@
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Code-Review+1: Rajath Agasthya <rajagast@cisco.com>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Sat, 17 Jun 2017 17:25:06 +0000
+Reviewed-on: https://review.openstack.org/475032
+Project: openstack/deb-python-reno
+Branch: refs/heads/master
