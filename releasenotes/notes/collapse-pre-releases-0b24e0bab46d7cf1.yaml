@@ -1,4 +1,0 @@
----
-features:
-  - Add a flag to collapse pre-release notes into their final release,
-    if the final release tag is present.

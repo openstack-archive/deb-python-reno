@@ -1,5 +1,0 @@
----
-other:
-  - The oslosphinx dependency for building documentation
-    is now optional. This breaks a build cycle between
-    oslosphinx and reno.

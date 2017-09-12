@@ -1,6 +1,0 @@
----
-features:
-  - |
-    Reno now supports to set through ``template`` attribute in
-    ``config.yaml`` a custom template which will be used by reno new
-    to create notes.

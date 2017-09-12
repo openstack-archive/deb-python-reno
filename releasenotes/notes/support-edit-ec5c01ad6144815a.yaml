@@ -1,5 +1,0 @@
----
-features:
-  - |
-    Reno now enables with reno new ``--edit`` to create a note and edit it with
-    your editor (defined with EDITOR environment variable).
